@@ -174,3 +174,10 @@
     justify-content: center;
     width: 100%;
   }
+a{
+    color: royalblue;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(51, 51, 232);
+}
