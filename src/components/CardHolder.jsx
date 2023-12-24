@@ -1,5 +1,8 @@
+
 import PropTypes from "prop-types"
+import ImagePoke from "./ImagePoke"
 export default function CardHolder({pokemonList}){
+  
     return(
         <>
         <section className="card-holder">
@@ -12,7 +15,7 @@ export default function CardHolder({pokemonList}){
                   <p key={ind}>{type}</p>
                 ))}
               </div>
-              <img src={`https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/${item.id}.svg`} alt="" />
+                  <ImagePoke item={item} />
             </div>
           ))}
       </section>
