@@ -10,7 +10,7 @@
 }
 .card-holder{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
     gap: 20px;
     margin: 5px;
     padding: 5px;
@@ -26,7 +26,7 @@
 }
 .pokemon-card{
     background-color: rgb(42, 41, 41);
-    max-width: 400px;
+    max-width: 350px;
     min-width: 350px;
     max-height: 250px;
     min-height: 250px;
@@ -64,7 +64,7 @@
     align-items: center;
 }
 .pokemon-name{
-    font-size: 48px;
+    font-size: 2rem;
     margin: 0;
 }
 .pokemon-card source,
@@ -180,4 +180,13 @@ a{
 }
 a:hover{
     color: rgb(51, 51, 232);
+}
+@media screen and (max-width: 768px){
+    .card-holder {
+        -ms-overflow-style: none;
+        scrollbar-width: none; 
+    }
+    .card-holder::-webkit-scrollbar { 
+        display: none; 
+    }
 }

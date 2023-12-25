@@ -231,7 +231,7 @@ function App() {
           <a href="mailto:vinayrbs001@gmail.com">vinayrbs001@gmail.com</a>
         </p>
         <p>
-        <a href="https://www.freepnglogos.com/images/pokemon-logo-png-1447.html">pokemon symbol logo</a>
+        <a href="https://www.freepnglogos.com/images/pokemon-logo-png-1447.html">logo</a>
         </p>
       </footer>
     </>
